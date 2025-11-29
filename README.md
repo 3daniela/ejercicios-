@@ -28,11 +28,11 @@ public class ConversorMoneda {
             
         } while (otra == 's');
         
-        scanner.close();
+    
     }
 }
 
-import java.util.Scanner;
+
 
 public class Suma {
     public static void main(String[] args) {
@@ -46,12 +46,9 @@ public class Suma {
             b = sc.nextInt();
             System.out.println("Suma: " + (a + b));
         } while (a != 0);
-        
-        sc.close();
+     
     }
 }
-
-import java.util.Scanner;
 
 public class Menu {
     public static void main(String[] args) {
@@ -65,8 +62,7 @@ public class Menu {
             if (op == 1) System.out.println("Hola");
             if (op == 2) System.out.println("Adiós");
         } while (op != 3);
-        
-        sc.close();
+     
     }
 }
 
@@ -94,7 +90,7 @@ public class Pares {
     }
 }
 
-import java.util.Scanner;
+
 
 public class Saludo {
     public static void main(String[] args) {
@@ -107,11 +103,10 @@ public class Saludo {
             resp = sc.next().charAt(0);
         } while (resp == 's');
         
-        sc.close();
+       
     }
 }
 
-import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
@@ -129,7 +124,7 @@ public class Calculadora {
             resp = sc.next().charAt(0);
         } while (resp == 's');
         
-        sc.close();
+       
     }
 }
 
